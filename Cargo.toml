@@ -14,5 +14,6 @@ documentation = "https://contain-rs.github.io/lru-cache/lru_cache"
 keywords = ["data-structures"]
 readme = "README.md"
 
-[dependencies]
-linked-hash-map = "*"
+[dependencies.linked_hash_map]
+git = "https://github.com/xwb1989/linked_hash_map.git"
+
