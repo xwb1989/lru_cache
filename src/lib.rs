@@ -50,7 +50,7 @@ use std::iter::IntoIterator;
 use linked_hash_map::LinkedHashMap;
 
 // FIXME(conventions): implement indexing?
-mod lru_cache {
+pub mod lru_cache {
 /// An LRU cache.
 pub struct LruCache<K, V, S = RandomState> where K: Eq + Hash, S: HashState {
     map: LinkedHashMap<K, V, S>,
