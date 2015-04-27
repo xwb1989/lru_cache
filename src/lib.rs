@@ -37,6 +37,9 @@
 //! assert!(cache.get(&2).is_none());
 //! ```
 
+#![crate_name = "lru_cache"]
+#![crate_type = "lib"]
+
 #![feature(std_misc)]
 
 extern crate linked_hash_map;
